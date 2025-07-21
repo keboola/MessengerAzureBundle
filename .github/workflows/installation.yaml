@@ -17,14 +17,6 @@ jobs:
                       # see https://github.com/symfony/symfony/issues/44081
                     - php: '8.1'
                       symfony: '5.2'
-                    - php: '7.3'
-                      symfony: '6.0'
-                    - php: '7.4'
-                      symfony: '6.0'
-                    - php: '7.3'
-                      symfony: '6.1'
-                    - php: '7.4'
-                      symfony: '6.1'
                     - php: '8.0'
                       symfony: '6.1'
 
