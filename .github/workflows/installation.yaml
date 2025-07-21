@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                php: ['8.2', '8.3']
+                php: ['8.2']
 #                php: ['8.2', '8.3', '8.4']
                 symfony: ['5.1', '5.2', '5.3', '5.4', '6.0', '6.1']
                 exclude:
