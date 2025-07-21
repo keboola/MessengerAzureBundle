@@ -8,12 +8,8 @@ jobs:
         strategy:
             matrix:
                 php: ['8.2', '8.3', '8.4']
-                symfony: ['4.4', '5.0', '5.1', '5.2', '5.3', '5.4', '6.0', '6.1']
+                symfony: ['5.1', '5.2', '5.3', '5.4', '6.0', '6.1']
                 exclude:
-                    - php: '8.0'
-                      symfony: '5.0'
-                    - php: '8.1'
-                      symfony: '5.0'
                       # see https://github.com/symfony/symfony/issues/44081
                     - php: '8.1'
                       symfony: '5.2'
